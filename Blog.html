@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html"> COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()" ></i>
+        </nav>
+            <h1>Our Certificate & Online Program For 2025</h1>
+
+  
+</section>
+
+    <!-- BLOG PAGE CONTENT  -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="image\certificate.jpg">
+                <h2>Advance Your Career with Our Certificate & Online Programs</h2>
+                <p>Our certificate and online programs for 2025 are designed to provide students and professionals with the skills and knowledge required to excel in today's competitive job market. With industry-relevant courses, expert faculty, and flexible learning options, we ensure that our learners are well-equipped to succeed in their respective fields.</p>
+                <br>
+                <p>Whether you are looking to upskill in **Business Analytics, Data Science, Machine Learning, Computer Science,** or other domains, our programs offer a structured and practical approach to learning. Our curriculum is aligned with industry demands, ensuring that our graduates are job-ready upon completion.</p>
+                <br>
+                <p>Our courses include real-world projects, hands-on training, and mentorship from industry experts. Upon successful completion, students receive globally recognized certifications that add value to their professional profiles and enhance career opportunities.</p>
+                <br>
+                <p>Enroll today and take the next step toward achieving your career goals with our innovative and future-ready online programs!</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name ">
+                        <input type="email" placeholder="Enter Your Email ">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="summit" class="hero-btn red-btn"> POST COMMENT</button>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+            <div class="blog-right">
+
+                <h3>Post Catrgories</h3>
+                <div>
+                    <span>Bussiness Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learing</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>Electronic and Communication</span>
+                    <span>23</span>
+                </div>
+                <div>
+                    <span>Civil</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Mechanical</span>
+                    <span>34</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+  
+    
+
+
+
+
+
+         <!-- FOOTER -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Patel College of Science and Technology, we are dedicated to providing high-quality education with a focus on research, innovation, and skill-based learning.<br> Our mission is to empower students with knowledge and expertise to drive meaningful impact in their careers and communities.</p>
+
+        <div class="icons" style="color: #f33446">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>           
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        
+    <p>Made with  <i class="fa-regular fa-heart" style="color: #f33446"></i> By Easy Toturials</p>
+
+    </section>
+
+
+
+
+<!-- JAVASCRIPT for toggle menu  -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function hidemenu(){
+        navLinks.style.right ="-200px";
+        }
+        function showmenu(){
+        navLinks.style.right ="0";
+        }
+  </script>
+    
+</body>
+</html>

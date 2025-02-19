@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html"> COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()" ></i>
+        </nav>
+            <h1>About Us</h1>
+    </section>
+
+    <section class="About-us">
+        <div class="row">
+            <div class="About-col">
+                <h1>Shaping the Future of Education</h1>
+                <p>At Patel College of Science and Technology , we are committed to fostering a dynamic learning environment that empowers students to achieve academic excellence, personal growth, and professional success. With state-of-the-art facilities, expert faculty, and a global community of learners, we provide an education that prepares students to excel in their chosen fields.</p>
+                <p>Our curriculum is designed to integrate theoretical knowledge with practical application, ensuring that our graduates are well-equipped to tackle real-world challenges. We believe in nurturing talent, encouraging innovation, and fostering a culture of lifelong learning.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+
+            </div>
+            <div class="About-col">
+            <img src="image/about.jpg">
+            </div>
+        </div>
+
+    </section>
+  
+    
+
+
+
+
+
+         <!-- FOOTER -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> Patel College of Science and Technology is dedicated to providing quality education with a strong emphasis on research,innovation, and industry-driven learning.<br> Our mission is to create community of learners who will lead with knowledge, integrity, and a commitment to making a positive impact on the world.</p>
+
+        <div class="icons" style="color: #f33446">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>           
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        
+    <p>Made with  <i class="fa-regular fa-heart" style="color: #f33446"></i>Patel College of Science and Technology</p>
+
+    </section>
+
+
+
+
+<!-- JAVASCRIPT for toggle menu  -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function hidemenu(){
+        navLinks.style.right ="-200px";
+        }
+        function showmenu(){
+        navLinks.style.right ="0";
+        }
+  </script>
+    
+</body>
+</html>

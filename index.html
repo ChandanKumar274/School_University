@@ -1,38 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+ <html lang="en">
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Website Design</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 <body>
     <section class="header">
         <nav>
             <a href="index.html"><img src="image/logo.png"></a>
-            <div class="nav-links">
-                <i class="fa fa-times" ></i>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hidemenu()"></i>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href=""> COURSE</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html"> COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
 
             </div>
-            <i class="fa fa-bars" ></i>
+            <i class="fa fa-bars"  onclick="showmenu()" ></i>
         </nav>
         <div class="text-box">
-            <h1>World biggest University</h1>
-            <p>Marketing website is now one of the easiest thing in the World .You just need to learn HTML CSS <br>JAVASCRIPT and you are good to go</p>
+            <h1> Bhopal's biggest University</h1>
+            <p>Welcome to Patel College of Science and Technology(Bhopal), a place where knowledge meets innovation.<br>Our mission is to cultivate a learning environment that fosters excellence, creativity, and leadership. <br>Join us and shape your future with top-tier education.</p>
             <a href="" class="hero-btn">Visit Us To Know More </a>
+
+        </div>
+    </section> 
+
+
+    <!-- COURSE -->
+
+    <section class="course"> 
+        <h1>Course we offer </h1>
+        <p>Explore our diverse academic programs designed to equip students with industry-relevant skills,<br>critical thinking, and hands-on experience.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Our intermediate programs provide students with a strong foundation in their chosen fields, preparing them for advanced studies and career opportunities.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>We offer a variety of undergraduate programs that blend theoretical knowledge with practical experience, ensuring holistic student development.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Our postgraduate programs focus on specialization and research, enabling students to excel in their careers and contribute to industry advancements.</p>
+
+            </div>
+        </div>
+
+
+    </section>
+    <!-- CAMPUS  -->
+    <section class="campus">
+        <h1>Our Campus </h1>
+        <p>Experience a world-class education across our multiple campuses, each offering state-of-the-art <br>facilities and a vibrant student community.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="image/london.png">
+                <div class="layer">
+                    <h3>Pharmacy Building</h3>
+
+                </div>
+
+                </div>
+                <div class="campus-col">
+                    <img src="image/newyork.png">
+                    <div class="layer">
+                        <h3>Nursing Building </h3>
+                    </div>      
+    
+                    </div>
+                    <div class="campus-col">
+                        <img src="image/washington.png">
+                        <div class="layer">
+                            <h3>Engineering Building</h3>
+                            
+        
+                    </div>
+
+            </div>
+        
+        </div>
+            
+    </section>
+
+    <!-- FACILITIES  -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>We provide world-class facilities to ensure students have access to the best resources for learning, sports, and recreation.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="image/library.png" >
+                <h3>World Class Library</h3>
+                <p>Our library houses an extensive collection of books, journals, and digital resources to support academic and research needs.</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="image/basketball.png" >
+                <h3>Expansive Sports Complex</h3>
+                    <p>We encourage physical fitness and teamwork through our well-maintained sports facilities, including courts, fields, and gymnasiums.</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="image/cafeteria.png" >
+                <h3>Nutritious and Delicious Food</h3>
+                <p>Our cafeteria offers a wide range of hygienic and nutritious meals, catering to diverse dietary preferences.</p>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- TESTINOMIALS -->
+
+
+    <section class="testimonials">
+        <h1>What Our Student Say</h1>
+        <p>Hear from our students about their journey at Patel College of Science and TEchnology  and how it has shaped their future.</p>
+        <div class="row">
+            <div class="testimonial-cal">
+                <img src="image/user1.jpg">
+                <div>
+                    <p>"The faculty and learning environment at Patel College of Science and Technology have been instrumental in my academic and personal growth. The hands-on experience provided here has prepared me for real-world challenges."</p>
+                    <h3>Suhani Singh</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star" style="color: #f33446"></i>
+                </div>
+
+            </div>
+
+           <div class="testimonial-cal">
+                <img src="image/user2.jpg">
+                <div>
+                    <p>"Choosing Patel College of Science and Technology was the best decision of my life. The university provides outstanding education, networking opportunities,and career support that helped me land my dream job."
+                    </p>
+                    <h3>David Chaudhary</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke" style="color: #f33446"></i>
+                </div>
+
+            </div>
 
         </div>
     </section>
 
+
+
+<!-- CALL TO ACTION -->
   
+
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses <br> From The world</h1>
+    <a href="" class="hero-btn"> CONTACT US</a>
+
+</section>
+
+
+         <!-- FOOTER -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Patel College of Science and Technology we are committed to providing top-quality education, fostering innovation, and creating a community of lifelong learners. <br>Join us and be part of an institution that empowers success.</p>
+
+        <div class="icons" style="color: #f33446">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>           
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        
+    <p>Made with  <i class="fa-regular fa-heart" style="color: #f33446"></i> By Easy Toturials</p>
+
+    </section>
+
+
+
+
+<!-- JAVASCRIPT for toggle menu  -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function hidemenu(){
+        navLinks.style.right ="-200px";
+        }
+        function showmenu(){
+        navLinks.style.right ="0";
+        }
+  </script>
     
 </body>
 </html>

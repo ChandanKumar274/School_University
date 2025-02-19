@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html"> COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars"  onclick="showmenu()" ></i>
+        </nav>
+            <h1>Our Courses</h1>
+    
+</section>
+
+       <!-- COURSES  -->
+
+       <section class="course"> 
+        <h1>Course we offer </h1>
+        <p>Explore our diverse academic programs designed to equip students with industry-relevant skills,<br>critical thinking, and hands-on experience.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Our intermediate programs provide students with a strong foundation in their chosen fields, preparing them for advanced studies and career opportunities.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>We offer a variety of undergraduate programs that blend theoretical knowledge with practical experience, ensuring holistic student development.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Our postgraduate programs focus on specialization and research, enabling students to excel in their careers and contribute to industry advancements.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+          <!-- FACILITIES -->
+
+
+
+          <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>We provide state-of-the-art facilities to support students' academic and extracurricular pursuits.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="image/library.png" >
+                    <h3>World Class Library</h3>
+                    <p>Our extensive library features a vast collection of books, research papers, and digital resources to support academic excellence.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="image/basketball.png" >
+                    <h3>Expansive Sports Complex</h3>
+                    <p>We encourage physical fitness and teamwork through our well-maintained sports facilities, including courts, fields, and gymnasiums.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="image/cafeteria.png" >
+                    <h3>Nutritious and Delicious Food</h3>
+                    <p>Our cafeteria offers a wide range of hygienic and nutritious meals, catering to diverse dietary preferences.</p>
+    
+                </div>
+    
+            </div>
+    
+    
+        </section>
+
+
+
+         <!-- FOOTER -->
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+         <p>We are committed to providing world-class education, fostering innovation, and empowering students to achieve their dreams in a dynamic learning environment.</p>
+
+        <div class="icons" style="color: #f33446">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>           
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        
+    <p>Made with  <i class="fa-regular fa-heart" style="color: #f33446"></i> By  Chandan Singh</p>
+
+    </section>
+
+
+         
+    
+
+
+
+
+<!-- JAVASCRIPT for toggle menu  -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function hidemenu(){
+        navLinks.style.right ="-200px";
+        }
+        function showmenu(){
+        navLinks.style.right ="0";
+        }
+  </script>
+    
+</body>
+</html>
